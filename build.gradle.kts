@@ -20,7 +20,7 @@ publishing {
             version = "1.0.0"
 
             // Ensure this path points to where your AAR is in the repo
-            artifact("com/github/mayurr1512/sample-sdk/1.0.0/sample-sdk-1.0.0.aar")
+            artifact("com/github/mayurr1512/my-android-sdk/1.0.0/my-android-sdk-1.0.0.aar")
         }
     }
 }
