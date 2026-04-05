@@ -15,12 +15,12 @@ tasks.register("assemble") {
 publishing {
     publications {
         register<MavenPublication>("release") {
-            groupId = "com.github.mayurwaghmare-ctrl"
+            groupId = "com.github.mayurr1512"
             artifactId = "sample-sdk"
-            version = "1.0.3"
+            version = "1.0.0"
 
             // Ensure this path points to where your AAR is in the repo
-            artifact("com/github/mayurwaghmare-ctrl/sample-sdk/1.0.0/sample-sdk-1.0.0.aar")
+            artifact("com/github/mayurr1512/sample-sdk/1.0.0/sample-sdk-1.0.0.aar")
         }
     }
 }
